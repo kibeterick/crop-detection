@@ -1,0 +1,24 @@
+# Core dependencies
+tensorflow>=2.13.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0
+
+# Geolocation
+geopy>=2.4.0
+
+# Voice
+pyttsx3>=2.90
+
+# Web requests
+requests>=2.31.0
+
+# Data export
+reportlab>=4.0.0
+pandas>=2.0.0
+
+# GUI (usually included with Python)
+# tkinter - comes with Python
+
+# Optional: For better performance
+# tensorflow-gpu>=2.13.0  # Uncomment if you have NVIDIA GPU

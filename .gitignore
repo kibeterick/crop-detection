@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+crop_env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+logs/
+debug_images/
+*.h5
+*.keras
+!demo_model.keras
+*.zip
+*.log
+detection_history.json
+route_map.html
+
+# Model files (too large for git)
+crop_disease_cnn_model.h5
+mobilenetv2_best.h5
+custom_best.h5
+*.invalid
+
+# Data
+data/
+plantvillage.zip
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
